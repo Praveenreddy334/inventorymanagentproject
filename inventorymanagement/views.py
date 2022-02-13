@@ -8,6 +8,7 @@ from .serializers import Inventory_Items_Serializer,Inventory_Transactions_Seria
 
 # Create your views here.
 #this is first line
+#this is second line.
 
 class RemoveInventory(APIView):
      def post(self,request):
