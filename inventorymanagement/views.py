@@ -7,6 +7,7 @@ from .models import Inventory_Items,Inventory_Transaction
 from .serializers import Inventory_Items_Serializer,Inventory_Transactions_Serializer
 
 # Create your views here.
+#this is first line
 
 class RemoveInventory(APIView):
      def post(self,request):
