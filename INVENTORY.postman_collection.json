@@ -1,0 +1,74 @@
+{
+	"info": {
+		"_postman_id": "2123bcfc-c4ef-4605-9938-e75b96ba28d1",
+		"name": "INVENTORY",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "remove_inventory",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"product_id\":\"PD3\",\n    \"product_name\":\"BISCUITS\",\n    \"quantity\":100\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8001/remove_inventory/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8001",
+					"path": [
+						"remove_inventory",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "add_Inventory",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"distributor_id\":\"DT1\",\n    \"product_id\":\"PD9\",\n    \"product_name\":\"BENGAL GRAM\",\n    \"quantity\":100\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8001/add_inventory/company/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8001",
+					"path": [
+						"add_inventory",
+						"company",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
